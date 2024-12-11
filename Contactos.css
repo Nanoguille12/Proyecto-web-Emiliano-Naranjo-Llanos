@@ -1,0 +1,148 @@
+body {
+    font-family: 'Poppins', Arial, sans-serif;
+    line-height: 1.6;
+    background: linear-gradient(120deg, #1a1a2e, #16213e);
+    color: #f3f4f6;
+}
+
+header {
+    background: #0f3460;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header .logo-container {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+header .logo {
+    width: 50px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #f3f4f6;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    transition: 0.3s ease;
+}
+
+header nav ul li a:hover,
+header nav ul li a.active {
+    background: #00d4ff;
+    color: #1a1a2e;
+}
+
+main {
+    max-width: 1000px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 10px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.contact-form input, 
+.contact-form textarea {
+    width: 100%;
+    padding: 0.8rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    background: #f3f4f6;
+}
+
+.contact-form input:invalid, 
+.contact-form textarea:invalid {
+    border-color: #ff4d4d;
+}
+
+.contact-form input:valid, 
+.contact-form textarea:valid {
+    border-color: #4caf50;
+}
+
+.contact-form button {
+    padding: 0.8rem 1.5rem;
+    background: #00d4ff;
+    color: #1a1a2e;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+
+.contact-form button:hover {
+    background: #1a1a2e;
+    color: #00d4ff;
+    transform: scale(1.1);
+}
+
+.info-section {
+    margin-top: 3rem;
+}
+
+.info-section .info-image {
+    width: 100%;
+    border-radius: 10px;
+    margin: 1.5rem 0;
+}
+
+.info-section ul {
+    list-style: none;
+    padding: 0;
+    margin: 1rem 0;
+}
+
+.info-section ul li {
+    position: relative;
+    padding-left: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.info-section ul li::before {
+    content: '✔';
+    position: absolute;
+    left: 0;
+    color: #00d4ff;
+}
+
+.info-section table {
+    width: 100%;
+    margin: 2rem 0;
+    border-collapse: collapse;
+    background: rgba(255, 255, 255, 0.1);
+    color: #f3f4f6;
+}
+
+.info-section table th,
+.info-section table td {
+    padding: 0.8rem;
+    border: 1px solid #f3f4f6;
+    text-align: left;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: #0f3460;
+    color: #f3f4f6;
+}
