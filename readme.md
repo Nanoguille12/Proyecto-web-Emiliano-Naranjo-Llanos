@@ -9,3 +9,4 @@ La página web de criptomonedas creada anteriormente tiene como objetivo proporc
 3. **Noticias y actualizaciones:** Ofrece noticias relevantes y análisis sobre el mercado de criptomonedas para mantener a los usuarios informados.
 4. **Herramientas educativas:** Incluye recursos como guías y tutoriales para ayudar a los principiantes a entender conceptos básicos y avanzados sobre criptomonedas.
 5. **Seguridad:** Garantiza un acceso seguro y la protección de los datos del usuario a través de sistemas de autenticación y cifrado.
+6. **Herramientas usadas:**Se ha utilizado partes del proyectos mios del grado medio como el botón que te dirija a la parte superior de la pagina, otras cosas son de alguna paginas de instagram para los efectos de los botones... Y otras del tema.
